@@ -1,0 +1,40 @@
+{% extends 'my_profile/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+    <!--================Contact Area =================-->
+
+        <div class="container">
+
+            <div class="section"></div>
+    <div class="row  mb-5 p-lg-5">
+
+        <div class="col"></div>
+        <div class="col-10 ">
+            <h3 class="text-muted mt-3">Laisser votre message</h3>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <small class="text-muted">
+                     <a class="btn btn-link " href="{% url 'profile' %}">Retour au profil.</a>
+                </small>
+                {{ form|crispy }}
+                <div class="text-right">
+                    <button type="submit" class="btn btn-outline-success btn-lg">Envoyer</button>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="col">
+
+        </div>
+    </div>
+    </div>
+
+    <!--================End Home Gallery Area =================-->
+
+{% endblock %}
