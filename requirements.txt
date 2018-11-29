@@ -28,7 +28,6 @@ npyscreen==4.10.5
 packaging==18.0
 pew==1.1.5
 Pillow==5.3.0
-pipenv==2018.10.14.dev0
 powerline-status==2.7
 progress==1.4
 psycopg2==2.7.6.1
