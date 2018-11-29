@@ -1,5 +1,4 @@
 appdirs==1.4.3
-application-utility==1.1.0.dev1
 astroid==2.0.4
 autopep8==1.4.3
 beautifulsoup4==4.6.3
