@@ -1,7 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d20dcff1-16b9-45ad-82e7-168c6f77c084" name="Default Changelist" comment="" />
+    <list default="true" id="d20dcff1-16b9-45ad-82e7-168c6f77c084" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/autocomplete.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/changelists.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/responsive_rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/css/widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/fonts/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/calendar-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-addlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-alert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-changelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-deletelink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-no.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-unknown-alt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-unknown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-viewlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/icon-yes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/inline-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/selector-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/sorting-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/tooltag-add.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/img/tooltag-arrowright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/SelectBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/SelectFilter2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/actions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/actions.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/autocomplete.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/change_form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/collapse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/inlines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/inlines.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/jquery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/popup_response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/prepopulate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/prepopulate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/prepopulate_init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/timeparse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/urlify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/110px-Python-logo-notext.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/capture2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/django.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/duty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/portfolio_details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/gallery/project-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/google.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/hacker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/javascript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/ndoua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/personal-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/personal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/programming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/python-django.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/serge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/slack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/symfony.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/vuejs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/img/web2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/jquery.ajaxchimp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/mail-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/stellar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/animate-css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/animate-css/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/bootstrap-datepicker/bootstrap-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/bootstrap-datepicker/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/counter-up/jquery.counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/counter-up/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/_flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/_flaticon.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/flaticon/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/isotope/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/isotope/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/jquery-ui/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/jquery-ui/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/lightbox/simpleLightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/lightbox/simpleLightbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/fonts/Linearicons-Free.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/fonts/Linearicons-Free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/fonts/Linearicons-Free.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/fonts/Linearicons-Free.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/fonts/Linearicons-Free.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/linericon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/nice-select/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/nice-select/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/nice-select/js/jquery.nice-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/nice-select/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/owl-carousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/owl-carousel/assets/animated.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/owl-carousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/owl-carousel/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/popup/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/my_profile/vendors/popup/magnific-popup.css" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +237,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="360">
+              <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -58,6 +274,11 @@
             <path>
               <item name="my_dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="my_profile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,17 +341,18 @@
       <option name="presentableId" value="Default" />
       <updated>1543500945143</updated>
       <workItem from="1543500946267" duration="48000" />
-      <workItem from="1543501068018" duration="5752000" />
+      <workItem from="1543501068018" duration="6086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5800000" />
+    <option name="totallyTimeSpent" value="6134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1720" y="25" width="1720" height="1415" extended-state="4" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25149342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25149342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -142,7 +364,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32938388" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32938388" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -169,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="360">
+          <caret line="127" column="44" lean-forward="true" selection-start-line="127" selection-start-column="44" selection-end-line="127" selection-end-column="44" />
         </state>
       </provider>
     </entry>
