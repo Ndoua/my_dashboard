@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d20dcff1-16b9-45ad-82e7-168c6f77c084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dashboard/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="d20dcff1-16b9-45ad-82e7-168c6f77c084" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +70,6 @@
               <item name="my_profile" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my_dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="my_profile" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="my_profile" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -140,16 +131,15 @@
       <option name="presentableId" value="Default" />
       <updated>1543500945143</updated>
       <workItem from="1543500946267" duration="48000" />
-      <workItem from="1543501068018" duration="4896000" />
+      <workItem from="1543501068018" duration="5186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4944000" />
+    <option name="totallyTimeSpent" value="5234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1720" y="25" width="1720" height="1415" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25149342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
