@@ -14,7 +14,6 @@ django-crispy-forms==1.7.2
 dnspython==1.15.0
 eventlet==0.24.1
 greenlet==0.4.15
-gufw==18.10.0
 gunicorn==19.9.0
 html5lib==1.0.1
 idna==2.7
