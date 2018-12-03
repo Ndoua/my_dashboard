@@ -1,7 +1,67 @@
 {% extends 'my_profile/base.html' %}
 {% load static %}
 {% block content %}
+    <section class="home_banner_area">
+        <div class="container box_1620">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="banner_content">
+                    <div class="media ml-lg-5">
+                        <div class="d-flex mt-5">
+                            <img class="rounded-circle" width="400" height="400"
+                                 src="{% static 'my_profile/img/ndoua.png' %}" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="personal_text">
+                                <h2 style="font-style: italic">N'doua Serge</h2>
+                                <h3 style="font-size: 1.5rem;">Développeur Web Junior</h3>
 
+                                <h4><img class="pb-1 mb-2"
+                                         src="{% static 'my_profile/img/python-logo.png' %}" width="60"
+                                         height="60" alt=""><span  style="color: #1d507d; font-size: 2rem;">PYTHON -</span><span style="color: #1c7430; font-size: 2rem;"> DJANGO</span>
+                                </h4>
+                                <p>Bienvenue sur mon profil. Cette page vous permettra de découvrir mes compétences en
+                                    matière de développement. Bonne lecture et n'héistez pas à me contacter.</p>
+                                <ul class="list basic_info " style="margin-bottom: -4rem">
+                                    <li><a href="{% url 'contact' %}"><i class="lnr lnr-calendar-full"></i> 18 Juin,
+                                        1983</a></li>
+                                    <li><a href="#"><i class="lnr lnr-phone-handset"></i> 06 03 03 60 40</a></li>
+                                    <li><a href="{% url 'contact' %}"><i class="lnr lnr-envelope"></i>
+                                        serge.ndoua@gmail.com</a>
+                                    </li>
+                                    <li><a href="{% url 'profile' %}"><i class="lnr lnr-home"></i> 3 Rue De Chausse Loup
+                                        16730 Fléac</a>
+                                    </li>
+                                    <li><a href="{% url 'profile' %}"><i class="fas fa-users"></i> Marié: 2 enfants
+                                    </a>
+                                    </li>
+                                </ul>
+                                <ul class="list personal_social " style="margin-left: -2rem">
+                                    <li><a href="{% url 'contact' %}"><img class="mb-5"
+                                                                           src="{% static 'my_profile/img/google.gif' %}"
+                                                                           width="200" height="100" alt=""></a></li>
+                                    <li><a style="margin-left: -30px" href="https://github.com/NdouaSerge"><i
+                                            style="color: #171515"
+                                            class="fab fa-github fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i style="color: #0E76A8" class="fab fa-linkedin fa-2x"></i></a>
+                                    </li>
+                                </ul>
+                                {% if messages %}
+                                    {% for message in messages %}
+                                        <div class="alert alert-{{ message.tags }}" role="alert">
+                                            {{ message }} <span style="color: #0081ff"><i
+                                                class="far fa-smile-wink fa-2x"></i></span>
+                                        </div>
+                                    {% endfor %}
+                                {% endif %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--================Welcome Area =================-->
     <section class="welcome_area p_120">
         <div class="container ">
@@ -12,15 +72,14 @@
                         <p>Ma passion pour le numérique fut ma première motivation vers une reconversion
                             professionnelle.
                         </p>
-                        <p>Grâce à une formation de Développeur Web,
-                            il ne m'a fallu que peu de temps pour être fasciné par la programmation et toutes ces
-                            possibilités.
+                        <p>Grâce à une formation de Développeur Web, il ne m'a fallu que peu de temps pour être fasciné
+                            par la programmation et toutes ces possibilités. Autodidacte, rigoureux et exigent, je
+                            bénéficie d'une capacité d'adaptation à toutes épreuves.
                             Autodidacte rigoureux et exigent, je bénéficie d'une capacité d'adaptation à toutes
                             épreuves.</p>
-                        <p>Face aux résolutions des problèmes, ma ténacité est mon meilleur atout.
-                            Si vous cherchez un développeur ambitieux avec une soif d'apprendre intarissable,
-                            alors je suis certain que notre collaboration ne nous sera que benéfique.
-                            Très souvent avec le sourire même dans les situations délicates de programmation.</p>
+                        <p>Face aux résolutions des problèmes, ma ténacité est mon meilleur atout. Si vous cherchez un
+                            développeur ambitieux avec une soif d'apprendre intarissable, alors je suis certain que
+                            notre collaboration ne nous sera que benéfique.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -30,26 +89,9 @@
                     <div class="tools_expert">
                         <div class="skill_main">
                             <div class="skill_item">
-                                <h4>HTML/CSS --> Bootstrap 3-4 / Materialize / UIkit3 <i
-                                        class="fas fa-file-code fa-2x"></i></h4>
-                                <div class="progress_br">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="10"
-                                             aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill_item">
-                                <h4>Javascript --> jQuery / Vuejs <i class="fab fa-js-square fa-2x"></i></h4>
-                                <div class="progress_br">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
-                                             aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skill_item">
-                                <h4>Python / Django <i class="fab fa-python fa-2x"></i></h4>
+                                <h4><i
+                                        class="fas fa-file-code fa-2x"></i> HTML/CSS --> Bootstrap 3-4 / Materialize /
+                                    UIkit3 </h4>
                                 <div class="progress_br">
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" aria-valuenow="70"
@@ -58,17 +100,36 @@
                                 </div>
                             </div>
                             <div class="skill_item">
-                                <h4>PHP/Symfony 3-4 <i class="fab fa-php fa-2x"></i></h4>
+                                <h4><i class="fab fa-js-square fa-2x"></i> Javascript --> jQuery / Vuejs </h4>
                                 <div class="progress_br">
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50"
                                              aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="skill_item">
-                                <h4>IDE --> Pycharm / Phpstorm / Visual Studio / Sublime / Atome <i
-                                        class="fas fa-terminal fa-2x"></i></h4>
+                                <h4><i class="fab fa-python fa-2x"></i>Python / Django </h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="45"
+                                             aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4><i class="fab fa-php fa-2x"></i> PHP/Symfony 3-4 </h4>
+                                <div class="progress_br">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50"
+                                             aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4><i
+                                        class="fas fa-terminal fa-2x"></i>IDE --> Pycharm / Phpstorm / Visual Studio /
+                                    Sublime / Atome </h4>
                                 <div class="progress_br">
                                     <div class="progress">
                                         <div class="progress-bar" role="progressbar" aria-valuenow="75"
@@ -77,21 +138,22 @@
                                 </div>
                             </div>
                             <div class="skill_item">
-                                <h4>OS --> <i class="fab fa-linux fa-2x"></i> Linux( Arch / Manjaro ) / Ubuntu 1804/ Mac
+                                <h4>OS --> <i class="fab fa-linux fa-2x"></i> Linux( Arch / Manjaro 18.0/ Ubuntu 1804 )
+                                    Mac
                                     <i class="fab fa-apple fa-2x"></i> / Windows 10 <i class="fab fa-windows fa-2x"></i>
                                 </h4>
                                 <div class="progress_br">
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="65"
                                              aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="skill_item">
-                                <h4>Git / Ghithub <i class="fas fa-code-branch fa-2x"></i></h4>
+                                <h4><i class="fas fa-code-branch fa-2x"></i>Git / Ghithub </h4>
                                 <div class="progress_br">
                                     <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60"
                                              aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
@@ -105,7 +167,7 @@
     <!--================End Welcome Area =================-->
 
     <!--================My Tabs Area =================-->
-    <section class="mytabs_area ">
+    <section class="mytabs_area mb-5">
         <div class="container">
             <div class="tabs_inner ">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -117,42 +179,62 @@
                            aria-controls="profile" aria-selected="false">Education</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="myTabContent">
+                <div class="tab-content text-center" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <ul class="list">
                             <li>
                                 <span></span>
                                 <div class="media">
-                                    <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                    <div class="d-flex ">
+                                        <h5>Stage d'immersion <br> en entreprise. <br>Groupe NVL <br>Ozange, l'Isle
+                                            d'Espagnac</h5>
+
                                     </div>
                                     <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                        <h5>Développer une application client-serveur.</h5>
+                                        <p> - Développer des pages web en lien avec une base de données. </p>
+                                        <p> - Mettre en oeuvre une solution de gestion de contenu ou e-commerce.</p>
+                                        <p> - Développer une application simple de mobilité numérique.</p>
+                                        <p> - Utiliser l'anglais dans son activité professionnelle en informatique.</p>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <span></span>
                                 <div class="media">
-                                    <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                    <div class="d-flex mt-2">
+                                        <h5> Stage Développeur Web <br>Ozange, l'Isle d'Espagnac </h5>
                                     </div>
-                                    <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                    <div class="media-body mr-3">
+                                        <h5>Développer une application web</h5>
+                                        <p>- Création de sites web avec le Framework Symfony </p>
+                                        <p> - Maintenace de sites web existants </p>
+                                        <p> - Référencement SEO Google Analytics </p>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <span></span>
+                                <div class="media ">
+                                    <div class="d-flex ">
+                                        <h5>Chef de projets en <br> formations</h5>
+                                    </div>
+                                    <div class="media-body ml-4">
+                                        <p> Créations et refonte de sites web associations.</p>
+
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <span></span>
                                 <div class="media">
-                                    <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                    <div class="d-flex  ">
+                                        <h5>Autres expériences</h5>
                                     </div>
-                                    <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                    <div class="media-body ">
+                                        <h5 class="mr-5">Mécanicien Automobile</h5>
+                                        <p>15 ans de services en mécanique automobile et poids lourds</p>
                                     </div>
                                 </div>
                             </li>
@@ -164,11 +246,14 @@
                                 <span></span>
                                 <div class="media">
                                     <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                        <h5>Diplômé en juillet 2018 </h5>
                                     </div>
                                     <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                        <h5>Formation Développeur Web</h5>
+                                        <p>Niveau III
+                                            Grande Ecole du Numérique
+                                            Simplon</p>
+
                                     </div>
                                 </div>
                             </li>
@@ -176,23 +261,28 @@
                                 <span></span>
                                 <div class="media">
                                     <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                        <h5>Contenu de la formation</h5>
                                     </div>
                                     <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                        <h5>Développer une application client-serveur</h5>
+                                        <p>Maquetter une application
+                                            Concevoir une base de données
+                                            Mettre en place une base de données
+                                            Développer une interface utilisateur
+                                            Développer des composant d'accès aux données</p> <br>
+
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <span></span>
                                 <div class="media">
-                                    <div class="d-flex">
-                                        <p>March 2017 to present</p>
+                                    <div class="d-flex ml-5">
+                                        <h5>Autres formations </h5>
                                     </div>
                                     <div class="media-body">
-                                        <h4>Formation</h4>
-                                        <p> Developpeur Web Junior <br/>Angoulême , Nouvelle-Aquitaine</p>
+                                        <h5>CAP mécanicien automobile</h5>
+
                                     </div>
                                 </div>
                             </li>
@@ -212,7 +302,7 @@
     <section class="feature_area p_120">
         <div class="container">
             <div class="main_title">
-                <h2>Compétences détaillées</h2>
+                <h3>Compétences détaillées</h3>
                 <p>Ci-dessous, les langages et outils que j'utilise au quotidien selon les envies et les projets.</p>
             </div>
             <div class="feature_inner row">
@@ -220,15 +310,13 @@
                     <div class="feature_item ">
                         <img class="mb-5" src="{% static 'my_profile/img/python-django.jpg' %}" width="200" height="120"
                              alt="">
-                        <p>Grand fan de <span style="color: #005fb9; font-weight:bold ">Python<span
-                                style="color: #ffc000; font-weight:bold ">3</span></span> et de son Framework le plus
-                            populaire qui est <span style="color: #2e986e; font-weight:bold ">Django</span> , j'ai
+                        <p>Fasciné par<span style="color: #005fb9; font-weight:bold ">Python<span
+                                style="color: #ffc000; font-weight:bold ">3</span></span> et son Framework le plus
+                            populaire <span style="color: #2e986e; font-weight:bold ">Django</span> , j'ai
                             découvert ce
-                            magnifique langage de programmation à la fois très beau et très polyvalent et depuis il ne
-                            cesse de m'émerveiller.
-                            Je me suis surpris à me poser la question de comment est-ce que j'ai pu passer autant de
-                            temps à côté de ce magnifique langage.
-                            Depuis, j'y suis en apprentissage accéléré..</p>
+                            langage de programmation complet et polyvalent, depuis ce dernier ne cesse de me
+                            surprendre.
+                            J'approfondis actuellement mon apprentissage avec une exalattion constente</p>
 
                     </div>
                 </div>
@@ -238,7 +326,8 @@
                              alt="">
                         <p><span style="color: #ffb500; font-weight:bold ">Javascript</span> est un langage très
                             puissant et très complexe à appréhender, mais grâce aux
-                            bibliothèques comme <span style="color: #005aaf; font-weight:bold ">jQuery</span> que j'utilise au quotidien, il devient plus simple d'avoir des
+                            bibliothèques comme <span style="color: #005aaf; font-weight:bold ">jQuery</span> que
+                            j'utilise au quotidien, il devient plus simple d'avoir des
                             notions du langage...</p>
                     </div>
                 </div>
@@ -247,107 +336,117 @@
                         <img class="mb-5" src="{% static 'my_profile/img/vuejs.png' %}" width="200" height="100" alt="">
                         <p><span style="color: #2e986e; font-weight:bold ">VueJs</span> , un framework que j'apprécie
                             beaucoup, je le trouve tres pratique et très éfficace
-                            notament grâce à sa simplicité de préhension.</p>
+                            notament grâce à sa simplicité de compréhension.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature_item">
-                        <img src="{% static 'my_profile/img/symfony.jpg' %}" width="200" height="100" alt="">
-                        <p>J'ai commencer mon apprentissage en programmation avec <span
+                        <img src="{% static 'my_profile/img/symfony_logo_vertical.png' %}" width="200" height="190" alt="">
+                        <p>J'ai débuté mon apprentissage en programmation avec <span
                                 style="color: #1464ff; font-weight:bold ">PHP</span> et son Framework <span
                                 style="color: #000000; font-weight:bold ">Symfony</span>, je
-                            trouve que c'est un langage correcte pour le web
-                            bien que pas très facile à adopter quand on est débutant. A l'aide d'un Framework comme
-                            Symfony ce langagage à plus d'un atout pour encore se faire valoir au près de sa grande
+                            trouve que c'est un langage complet pour le web
+                            mais qui reste difficle à adopter pour un débutant. Un Framework comme
+                            Symfony a pour atout de disposer d'une grande
                             communauté.
                             je me sert de Symfony4 pour de petits projets de temps à autres..</p>
                     </div>
+
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="feature_item">
-                        <i class="flaticon-skyline"></i>
-                        <p>J'utilise <span style="color: #5d51ff; font-weight:bold ">Bootstrap</span> au quotidien dans
-                            tous ce que je fais, il faut dire que cette librairie
+                        <img src="{% static 'my_profile/img/bootstrap.jpg' %}"  alt="">
+                        <p>J'utilise <span style="color: #5d51ff; font-weight:bold ">Bootstrap</span> au quotidien. Il
+                            faut dire que cette librairie
                             est un allié de premier choix pour presque tous les langages de programmation Web ce
-                            le rend quasiment indispensable dans le milieu du web, cependant je me suis aussi attaché
-                            à certains de ses concurents ou semblables devrais-je dire.
-                            Je trouve <span style="color: #ff3b4d; font-weight:bold ">Materialize</span> très
-                            intéressant avec un souci de design plus accentué, et enfin <span style="color: #1464ff; font-weight:bold ">UIkit3</span>
-                        que je trouve encore plus fin niveau design et qualité mais hélas qui n'en est encore qu'à ses débuts.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature_item">
-                        <i class="flaticon-sketch"></i>
-                        <p>If you are looking at blank cassettes on the web, you may be very confused at the difference
-                            in price. You may see some for as low as $17 each.</p>
+                            le rend quasiment indispensable dans le milieu du web. Cela le rend quasiment indispensable
+                            dans le milieu du web. Je me suis néanmoins intéressé à certains de ses concurents ou
+                            semblables.
+                            Je trouve <span style="color: #ff3b4d; font-weight:bold ">Materialize</span>
+                            intéressant avec un souci de design plus accentué, et <span
+                                    style="color: #1464ff; font-weight:bold ">UIkit3</span>
+                            plus fin niveau du design et de la qualité.</p>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
+
     <!--================End Feature Area =================-->
+    <div class="row">
+        <div class="col"></div>
+<div class="col">
+        <div class="feature_inner row mt-5">
+
+                <div class="  main_title">
+                    <h3>Hobbies, centres d'intérêts</h3>
+                </div>
+                <div class="row">
+                        <div class=" post-meta">
+                            <a class="post-category cat-1" href="/">Formula One</a>
+                        </div>
+                        <div class=" post-meta col-xs-10">
+                            <a class="post-category cat-2" href="/">Tennis</a>
+                        </div>
+                        <div class=" post-meta col-xs-10">
+                            <a class="post-category cat-3" href="/">Basketball</a>
+                        </div>
+                        <div class=" post-meta col-xs-10">
+                            <a class="post-category cat-4" href="/">vélo VTT</a>
+                        </div>
+                        <div class=" post-meta col-xs-10">
+                            <a class="post-category cat-1" href="/">cosmologie</a>
+
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="col"></div>
+
+    </div>
 
     <!--================Home Gallery Area =================-->
     <section class="home_gallery_area p_120">
         <div class="container">
             <div class="main_title">
-                <h2>Quelques projets en cours de realisation</h2>
+                <h3> Exemple de projets réalisés en formation</h3>
                 <p>Who are in extremely love with eco friendly system.</p>
             </div>
-        </div>
-        <div class="container">
-            <div class="gallery_f_inner row imageGallery1">
-                <div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
-                    <div class="h_gallery_item">
-                        <div class="g_img_item">
-                            <img class="img-fluid" src="{% static 'my_profile/img/gallery/project-2.jpg' %}" alt="">
-                            <a class="light" href="{% static 'my_profile/img/gallery/project-2.jpg' %}"><img
-                                    src="{% static 'my_profile/img/gallery/icon.png' %}" alt=""></a>
+            <div class="row mt-5">
+                        <!-- post -->
+                        <div class="col-sm-6">
+                            <div class="post post-thumb">
+                                <a class="post-img" href="/"><img src="{% static 'my_profile/img/love1.jpg' %}" alt=""></a>
+                                <div class="post-body">
+                                    <div class="post-meta">
+                                        <a class="post-category cat-2" href="/">vacances</a>
+                                        <span class="post-date">20 juillet, 2018</span>
+                                    </div>
+                                    <h3 class="post-title"><a href="/">Amoureux de la nature et ...</a></h3>
+                                </div>
+                            </div>
                         </div>
-                        <div class="g_item_text">
-                            <h4>2D Vinyl Design</h4>
-                            <p>Client Project</p>
+                        <!-- /post -->
+
+                        <!-- post -->
+                        <div class="col">
+
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
-                    <div class="h_gallery_item">
-                        <div class="g_img_item">
-                            <img class="img-fluid" src="{% static 'my_profile/img/gallery/project-3.jpg' %}" alt="">
-                            <a class="light" href="{% static 'my_profile/img/gallery/project-3.jpg' %}"><img
-                                    src="{% static 'my_profile/img/gallery/icon.png' %}" alt=""></a>
-                        </div>
-                        <div class="g_item_text">
-                            <h4>Creative Poster Design</h4>
-                            <p>Client Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 brand creative">
-                    <div class="h_gallery_item">
-                        <div class="g_img_item">
-                            <img class="img-fluid" src="{% static 'my_profile/img/gallery/project-6.jpg' %}" alt="">
-                            <a class="light" href="{% static 'my_profile/img/gallery/project-6.jpg' %}"><img
-                                    src="{% static 'my_profile/img/gallery/icon.png' %}" alt=""></a>
-                        </div>
-                        <div class="g_item_text">
-                            <h4>3D Logo Design</h4>
-                            <p>Client Project</p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-        </div>
+
 
     </section>
+
     <!--================Contact Area =================-->
     <div class="section testimonials_area p_120">
         <div class="container">
             <div class="main_title">
                 <h2>Contactez moi</h2>
-                <p>N'hésitez pas à me laisser un message pour tout autres questions, je me ferai un plaisir de vous
+                <p>N'hésitez pas à me laisser un message pour toutes autres questions, je me ferai un plaisir de vous
                     repondre. Merci et à bientot</p>
             </div>
             <div class="col-md-12 text-center">
