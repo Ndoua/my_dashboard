@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d20dcff1-16b9-45ad-82e7-168c6f77c084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_dashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_dashboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_profile/templates/my_profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_profile/templates/my_profile/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_profile/templates/my_profile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="419" column="46" lean-forward="true" selection-start-line="419" selection-start-column="46" selection-end-line="419" selection-end-column="46" />
+            <state relative-caret-position="579">
+              <caret line="427" column="95" selection-start-line="427" selection-start-column="95" selection-end-line="427" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -55,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1229">
+            <state relative-caret-position="3380">
               <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
               <folding>
                 <element signature="e#310#319#0" expanded="true" />
@@ -91,8 +89,8 @@
         <option value="$PROJECT_DIR$/my_profile/templates/my_profile/contact.html" />
         <option value="$PROJECT_DIR$/my_profile/models.py" />
         <option value="$PROJECT_DIR$/my_profile/static/my_profile/css/style.css" />
-        <option value="$PROJECT_DIR$/my_profile/templates/my_profile/index.html" />
         <option value="$PROJECT_DIR$/dashboard/settings.py" />
+        <option value="$PROJECT_DIR$/my_profile/templates/my_profile/index.html" />
       </list>
     </option>
   </component>
@@ -107,6 +105,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,7 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,17 +201,17 @@
       <workItem from="1543839626074" duration="966000" />
       <workItem from="1543840869645" duration="599000" />
       <workItem from="1543843823505" duration="681000" />
+      <workItem from="1544437511898" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51745000" />
+    <option name="totallyTimeSpent" value="52002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1710" height="1415" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21935096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21927711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -225,10 +223,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32829046" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32829046" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="SvgViewer" />
+      <window_info anchor="right" id="JSON Utils" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,20 +268,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Templates/webmag/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4446">
-          <caret line="171" column="18" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Templates/webmag/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16510">
-          <caret line="635" column="1" selection-start-line="635" selection-start-column="1" selection-end-line="635" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Templates/webmag/index.html" />
+    <entry file="file://$PROJECT_DIR$/../Templates/webmag/css/style.css" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -363,16 +351,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_profile/static/my_profile/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19864">
-          <caret line="764" column="31" selection-start-line="763" selection-end-line="764" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1229">
+        <state relative-caret-position="3380">
           <caret line="130" column="37" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
           <folding>
             <element signature="e#310#319#0" expanded="true" />
@@ -380,10 +361,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_profile/static/my_profile/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19864">
+          <caret line="764" column="31" selection-start-line="763" selection-end-line="764" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_profile/templates/my_profile/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="419" column="46" lean-forward="true" selection-start-line="419" selection-start-column="46" selection-end-line="419" selection-end-column="46" />
+        <state relative-caret-position="579">
+          <caret line="427" column="95" selection-start-line="427" selection-start-column="95" selection-end-line="427" selection-end-column="95" />
         </state>
       </provider>
     </entry>
